@@ -26,7 +26,7 @@ aside {
   display: flex;
 }
 
-button {
+aside button {
   cursor: pointer;
   padding: 10px;
   display: block;
@@ -47,6 +47,7 @@ main h2 {
   width: 350px;
   font-weight: 400;
   border-bottom: 1px solid #111;
+  margin-bottom: 20px;
 }
 
 .person {
@@ -54,4 +55,11 @@ main h2 {
   justify-content: space-between;
   font-size: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#delete-users {
+  background-color: rgb(126, 21, 21);
+  color: #fff;
 }
